@@ -67,3 +67,13 @@ var placeOfBirth = ({ firstname }) => {
 
 placeOfBirth(person); //Bob of England
 ```
+
+```javascript
+var [firstCity] = ["London", "Paris", "New York"];
+
+console.log(firstCity); //London
+
+var [, , thirdCity] = ["London", "Paris", "New York"];
+
+console.log(thirdCity); //New York
+```
